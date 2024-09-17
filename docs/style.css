@@ -540,7 +540,7 @@ a{
     letter-spacing: 10px;
 }
 nav #logo{
-    margin-left: 25px;
+    margin-left: 20px;
     height: 100%;
     width: 45%;
 }
@@ -563,7 +563,7 @@ input[id="search-bar"]{
 }
 .srch-btn{
     width: 18%;
-    right: -26px;
+    right: -24px;
 }
 .toggle{
     right: 25px;
@@ -591,13 +591,16 @@ z-index: 1;
 
 /* *****START of Footer***** */
 .footer{
-    height: 35vh;
+    height: 30vh;
 }
 .content .logo{
     left: 12%;
 }
 .footer h3{
     font-size: 5vmin;
+}
+.withus{
+    font-size: 3.4vmin;
 }
 /* *****END of Footer***** */
 
