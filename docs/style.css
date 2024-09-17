@@ -466,7 +466,7 @@ nav #logo{
     width: 45%;
 }
 .company-name{
-    margin-left: 0;
+    margin-left: -5px;
     font-size: 5.5vmin;
 }
 .head-item4 form{
