@@ -568,7 +568,7 @@ input[id="search-bar"]{
     right: -16px;
 }
 .toggle{
-    right: 20px;
+    right: 19px;
     height: 46.5%;
     width: 100%;
     margin-right: 0;
@@ -593,7 +593,7 @@ z-index: 1;
 
 /* *****START of Footer***** */
 .footer{
-    height: 30vh;
+    height: 24vh;
 }
 .content .logo{
     left: 10%;
@@ -601,9 +601,9 @@ z-index: 1;
 .footer h3{
     font-size: 5vmin;
 }
-.withus{
-    font-size: 3.4vmin;
-    font-weight: 700;
+.callus{
+    font-size: 3.2vmin !important;
+    font-weight: 700 !important;
 }
 /* *****END of Footer***** */
 

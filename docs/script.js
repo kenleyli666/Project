@@ -76,7 +76,7 @@ if (window.innerWidth <= 1024) {
     else{
         headItem2.style.display = "inline-flex";
         headItem4.style.display = "none";
-        menutoggle.style.right = "20px";
+        menutoggle.style.right = "19px";
     }
 }
 })
