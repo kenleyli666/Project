@@ -384,8 +384,8 @@ input[id="search-bar"]{
     position: absolute;
     top: 27%;
     left: 36%;
-    width: 48px;
-    height: 48px;
+    width: 46px;
+    height: 46px;
     cursor: pointer;
 }
 .footer h3{
@@ -565,10 +565,10 @@ input[id="search-bar"]{
 }
 .srch-btn{
     width: 18%;
-    right: -20px;
+    right: -16px;
 }
 .toggle{
-    right: 22px;
+    right: 20px;
     height: 46.5%;
     width: 100%;
     margin-right: 0;
@@ -596,7 +596,7 @@ z-index: 1;
     height: 30vh;
 }
 .content .logo{
-    left: 11%;
+    left: 10%;
 }
 .footer h3{
     font-size: 5vmin;
