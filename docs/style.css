@@ -335,8 +335,10 @@ input[id="search-bar"]{
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(./img/background/9050347.jpg) ;
-    filter: opacity(0.8);
+    background: url(./img/background/hongkong.jpg)  100% 100%;
+    background-position: center top;
+    object-fit: cover;
+    filter: opacity(0.97);
     z-index: -1;
 }
 #checkbox:checked ~ .leftbar{
@@ -382,8 +384,8 @@ input[id="search-bar"]{
     position: absolute;
     top: 27%;
     left: 36%;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     cursor: pointer;
 }
 .footer h3{
@@ -556,17 +558,17 @@ input[id="search-bar"]{
 }
 .bx-x{
     font-size: 6vmin;
-    left: 7%;
+    left: 2%;
 }
 .bx-search{
     font-size: 6vmin;
 }
 .srch-btn{
     width: 18%;
-    right: -24px;
+    right: -20px;
 }
 .toggle{
-    right: 25px;
+    right: 22px;
     height: 46.5%;
     width: 100%;
     margin-right: 0;
@@ -594,13 +596,14 @@ z-index: 1;
     height: 30vh;
 }
 .content .logo{
-    left: 12%;
+    left: 11%;
 }
 .footer h3{
     font-size: 5vmin;
 }
 .withus{
     font-size: 3.4vmin;
+    font-weight: 700;
 }
 /* *****END of Footer***** */
 
