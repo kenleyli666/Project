@@ -28,7 +28,19 @@ a{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     cursor: pointer;
 }
-/* *****END of Normal***** */
+.section-area{
+    position: relative;
+    padding: 3rem 9%;
+    top: 0;
+    left: 0;
+}
+.main{
+    margin: 0 auto;
+    height: 30vh;
+    width: 90%;
+    color: #14105B;
+}
+/* *****END of Global***** */
 
 /* *****START of Header***** */
 header{
@@ -348,15 +360,73 @@ input[id="search-bar"]{
 /* *****START of Section One***** */
 
 /* *****START of Section One***** */
-.section-area{
-    padding: 3rem 9%;
+.sectionOne{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
-.main{
-    margin: 0 auto;
-    height: 100vh;
-    width: 80%;
-    background:#00ff00;
+.banner{
+    width: 100%;
+    height: 5vh;
+    object-fit: cover;
 }
+.sectionOne .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 15vh;
+    border: 1px solid darkblue;
+    color: darkblue;
+}
+.sectionOne .main button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    height: 90%;
+    /* background: rgba(238, 238, 238, 0.7); */
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+        &:hover{
+            background: #eee;
+        }
+}
+.sectionOne .main img{
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    height: 40%;
+}
+.sectionOne .main a {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    color: rgb(0, 255, 234);
+        &:hover{
+            color: var(--hover-color);
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* *****END of Section One***** */
 
 /* *****START of Footer***** */
@@ -393,9 +463,7 @@ input[id="search-bar"]{
     margin: 0.5rem 0;
     color: var(--text1-color);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        &:hover{
-            color: var(--hover-color);
-        }
+    cursor: pointer;
 }
 .footer a{
     display: inline-flex;
@@ -517,7 +585,7 @@ input[id="search-bar"]{
 
 
 /* *****START of Header***** */
-@media screen and (max-width:1024px){
+@media screen and (max-width:1025px){
 .head-item3{
    display: none;
 }
@@ -590,15 +658,37 @@ left: -100%;
 z-index: 1;
 }
 /* *****START of Header***** */
-
+/* *****START of Section one***** */
+.banner{
+    height: 30px;
+    object-fit: fill;
+}
+.sectionOne .main{
+    box-sizing: border-box;
+    text-align: center;
+    height: 8vh;
+}
+.sectionOne .main button{
+    width: 100%;
+    height: 90%;
+}
+.sectionOne .main img{
+    width: 40%;
+    height: 40%;
+}
+.sectionOne .main a{
+    font-size: 3vmin;
+    left: 5%;
+}
+/* *****END of Section one***** */
 /* *****START of Footer***** */
 .footer{
-    height: 27vh;
+    height: 28vh;
 }
 .content .logo{
     left: 10%;
 }
-.footer h3{
+.footer .content h3{
     font-size: 5vmin;
 }
 .callus{
