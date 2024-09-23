@@ -1,4 +1,4 @@
-emailjs.init("vDIWKfh8uv4NgG5s6");
+emailjs.init("vDlWKfh8uv4NgG5s6");
 
 function sendEmail(name, email, phone, comment) {
     console.log("Sending email with:", name, email, phone, comment); // 調試輸出
@@ -20,7 +20,7 @@ function sendEmail(name, email, phone, comment) {
     );
 }
 
-var form = document.getElementById("myForm");IX
+var form = document.getElementById("myForm");
 var nameInput = document.querySelector("input[name='name']");
 var emailInput = document.querySelector("input[name='email']");
 var phoneInput = document.querySelector("input[name='phone']");

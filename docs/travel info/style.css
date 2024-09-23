@@ -43,6 +43,27 @@ header{
     background-size: 100% 100%;
     z-index: 100;
 }
+#play-button {
+    position: absolute;
+    width: 6%;
+    height: 5vh;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 4vmin;
+    font-weight: 800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #1863ff;
+}
+    
+#play-button:hover {
+    background: #000;
+    color: var(--hover-color);
+}
+
 nav{
     position: fixed;
     display: flex;
@@ -740,10 +761,14 @@ footer{
 /* *****START of Header***** */
 @media screen and (max-width:1025px){
 header{
-    height: 60vh;
+    height: 65vh;
 }
 .text-container {
     height: 50vh;
+}
+#play-button{
+    width: 10%;
+    height: 3vh;
 }
 .head-item3{
    display: none;
@@ -860,13 +885,13 @@ z-index: 1;
 /* *****END of Section Two***** */
 /* *****START of Section Three***** */
 #contact{
-    height: 125vh;
+    height: 128vh;
 }
 .contact .box{
-    height: 10vh;
+    height: 12vh;
 }
 .contact .box div{
-    font-size: 3vmin;
+    font-size: 2.7vmin;
     margin: 0.3rem 0;
 }
 .contact .row {

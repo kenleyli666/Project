@@ -62,11 +62,30 @@ header{
 }
 #background-video {
     position: absolute;
-    top: 0;
+    top: -10vh;
     left: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 135%;
+}
+#play-button {
+    position: absolute;
+    width: 6%;
+    height: 5vh;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 4vmin;
+    font-weight: 800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #1863ff;
+}
+
+#play-button:hover {
+    background: #000;
+    color: var(--hover-color);
 }
 nav{
     position: fixed;
@@ -74,7 +93,7 @@ nav{
     height: 10vh;         
     width: 100%;
     align-items: center;
-    z-index: 100020;
+    z-index: 20;
 }
 nav::before {
     position: absolute;
@@ -617,6 +636,19 @@ header{
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
+}
+#play-button{
+    width: 10%;
+    height: 3vh;
+}
+.text-container {
+    height: 50vh;
+}
+#background-video {
+    /* top: 10vh; */
+    top: -5vh;
+    width: 200%;
+    height: 120%;
 }
 .head-item3{
    display: none;

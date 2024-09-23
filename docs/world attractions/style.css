@@ -47,13 +47,34 @@ header{
     position: relative;
     height: 80vh;
     width: 100%;
+    overflow: hidden;
 }
 #background-video {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 125vh;
     width: 100%;
+}
+#play-button {
+    position: absolute;
+    width: 6%;
+    height: 5vh;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 4vmin;
+    font-weight: 800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #1863ff;
+}
+
+#play-button:hover {
+    background: #000;
+    color: var(--hover-color);
 }
 nav{
     position: fixed;
@@ -579,6 +600,21 @@ input[id="search-bar"]{
 
 /* *****START of Header***** */
 @media screen and (max-width:1025px){
+header{
+    height: 50vh;
+}
+#background-video {
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    background-position: right;
+    height: 100vh;
+    width: 150%;
+}
+#play-button{
+    width: 10%;
+    height: 3vh;
+}
 .head-item3{
    display: none;
 }

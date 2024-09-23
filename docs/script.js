@@ -80,3 +80,22 @@ if (window.innerWidth <= 1024) {
     }
 }
 })
+
+// Sound loop
+document.getElementById('play-button').addEventListener('click', function() {
+    var audio = document.getElementById('background-audio');
+    var button = document.getElementById('play-button');
+    if (audio.paused) {
+      audio.play().catch(function(error) {
+        console.log('音頻播放被阻止:', error);
+      });
+      button.textContent = '暫停';
+      button.style.backgroundColor = '#000';
+      button.style.color = 'var(--hover-color)';
+    } else {
+      audio.pause();
+      button.textContent = '播放';
+      button.style.backgroundColor = '#1863ff';
+      button.style.color = '#fff';
+    }
+  });
