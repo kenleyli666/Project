@@ -67,6 +67,7 @@ header{
     font-weight: 800;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background: #1863ff;
+    z-index: 0;
   }
 
   #play-button:hover {
@@ -357,7 +358,7 @@ input[id="search-bar"]{
     width: 30%;
     height: 90vh;
     left: -100%;
-    z-index: 1;
+    z-index: 2;
 }
 .leftbar::before {
     position: absolute;
@@ -434,19 +435,6 @@ input[id="search-bar"]{
             color: var(--hover-color);
         }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* *****END of Section One***** */
 
 /* *****START of Footer***** */

@@ -57,6 +57,7 @@ header{
     font-weight: 800;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background: #1863ff;
+    z-index: 0;
 }
     
 #play-button:hover {
@@ -479,9 +480,10 @@ input[id="search-bar"]{
     font-size: 4.5vmin;
     font-weight: 600;
     text-align: center;
-    color: rgb(0, 247, 255);
+    color: #000;
     text-decoration: underline;
     margin-top: 1.5rem;
+    text-shadow: none;
 }
 .contact .box{
     display: grid; 
@@ -492,8 +494,10 @@ input[id="search-bar"]{
     height: 22vh;
     top: 0;
     left: 0;
-    color: rgb(0, 247, 255);
+    color: #000;
+    font-weight: 600;
     border-bottom: 2px solid #000;
+    text-shadow: none;
 }
 .contact .box .content{
     margin: 0;
@@ -546,7 +550,9 @@ input[id="search-bar"]{
 .contact .row .form-c label {
     text-align: center;
     font-size: 4vmin;
-    color: rgb(0, 247, 255);
+    color: #000;
+    text-shadow: none;
+    font-weight: 800;
 }
 
 .contact .row .form-c input,
