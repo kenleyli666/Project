@@ -908,10 +908,12 @@ z-index: 1;
 .contact .box div{
     font-size: 2.7vmin;
     margin: 0.3rem 0;
+    font-weight: 300;
 }
 #contact a{
     font-size: 2.7vmin !important;
-    letter-spacing: 0.5px;
+    letter-spacing: 0;
+    font-weight: 300;
 }
 .contact .row {
     display: flex;

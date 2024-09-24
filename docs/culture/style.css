@@ -437,7 +437,7 @@ input[id="search-bar"]{
 
 /* *****START of Section TWO***** */
 .sectionTwo{
-    height: 80vh;
+    height: 73vh;
 }
 .sectionTwo h1{
     color: #000;
@@ -824,7 +824,7 @@ z-index: 1;
 /* *****START of Whatsapp & ScrollTop***** */
 .whatsapp{
     right: -28px;
-    bottom: 120px;
+    bottom: 80px;
 }
 .whatsapp .whatsapp-btn{
     font-size: 15vmin;
