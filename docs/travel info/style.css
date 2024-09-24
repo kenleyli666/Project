@@ -510,7 +510,12 @@ input[id="search-bar"]{
     font-size: 3.4vmin;
     margin: 0.5rem 0;
 }
-
+#contact a{
+    color: #000;
+    box-shadow: none;
+    font-size: 3.4vmin;
+    text-shadow: none;
+}
 .contact .row {
     position: relative;
     display: flex;
@@ -518,7 +523,7 @@ input[id="search-bar"]{
     justify-content: space-between;
     gap: 2rem;
     margin: 1rem 0;
-    height: 100vh; /* 調整高度 */
+    height: 100vh; 
     width: 100%;
 }
 .ifarm{
@@ -892,6 +897,10 @@ z-index: 1;
 /* *****START of Section Three***** */
 #contact{
     height: 130vh;
+}
+.contact h1{
+    font-size: 5vmin;
+    font-weight: 700;
 }
 .contact .box{
     height: 12vh;

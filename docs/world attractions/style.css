@@ -455,6 +455,7 @@ input[id="search-bar"]{
     margin: 0 auto;
     width: 100%;
     height: 100%;
+    background: yellow;
 }
 .sectionTwo h1{
     text-align: center;
@@ -771,6 +772,66 @@ z-index: 1;
     left: 6%;
 }
 /* *****END of Section one***** */
+
+/* *****START of Section Two***** */
+.sectionTwo{
+    padding: 3rem 0;
+    height: 90vh;
+}
+.sectionTwo .main{
+    width: 100%;
+    height: 70vh;
+}
+.swiper{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.sectionTwo h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 6vmin;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    color: #000;
+    margin-bottom: 3rem;
+}
+.sectionTwo p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 5vmin;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #000;
+
+}
+.swiper-slide{
+    border: 2px solid #000;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-slide .visaimg{
+    top: 7.5vh;
+    width: 100%;
+    height: 80%;
+    border: 1px solid #000;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+}
+.swiper-slide .content{
+    height: 20%;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 3.5vmin;
+    font-weight: 800;
+}
+/* *****ENG of Section ***** */
+
 /* *****START of Footer***** */
 .footer{
     height: 28vh;

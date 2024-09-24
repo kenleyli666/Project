@@ -30,7 +30,7 @@ a{
 }
 .section-area{
     position: relative;
-    padding: 3rem 9%;
+    padding: 2rem 9%;
     top: 0;
     left: 0;
 }
@@ -377,7 +377,6 @@ input[id="search-bar"]{
     left: 0;
 }
 /* *****END of AsideBar***** */
-/* *****START of Section One***** */
 
 /* *****START of Section One***** */
 .sectionOne{
@@ -438,7 +437,15 @@ input[id="search-bar"]{
 
 /* *****START of Section TWO***** */
 .sectionTwo{
-    height: 70vh;
+    height: 80vh;
+}
+.sectionTwo h1{
+    color: #000;
+    /* font-size: 5.5vmin; */
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 .sectionTwo .main{
     display: inline-flex;
