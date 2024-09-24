@@ -438,14 +438,14 @@ input[id="search-bar"]{
 
 /* *****START of Section TWO***** */
 .sectionTwo{
-    height: 80vh;
+    height: 70vh;
 }
 .sectionTwo .main{
     display: inline-flex;
     position: relative;
     width: 100%;
 }
- .sectionTwo .bnt-container{
+.sectionTwo .bnt-container{
     display: inline-flex;
     flex-direction: column;
     height: 40vh;
@@ -502,14 +502,14 @@ input[id="search-bar"]{
 }
 .sectionTwo .content-contral2{
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     position: relative;
     top: 10vh;
 }
 .sectionTwo .content-contral2 .text div{
     display: inline-flex;
-    width: 45%;
-    height: 20vh;
+    width: 48%;
+    height: 15vh;
 }
 .sectionTwo .content6{
     display: none;
@@ -785,6 +785,12 @@ z-index: 1;
     left: 6%;
 }
 /* *****END of Section one***** */
+.sectionTwo{
+    padding: 3rem 0;
+}
+.sectionTwo .bnt-container{
+    width: 20%;
+}
 /* *****START of Footer***** */
 .footer{
     height: 28vh;
