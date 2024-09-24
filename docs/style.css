@@ -499,6 +499,7 @@ input[id="search-bar"]{
     margin-bottom: 1rem;
 }
 .sectionTwo .row a{
+    font-weight: 600;
     text-align: center;
     color: #1863ff;
         &:hover{

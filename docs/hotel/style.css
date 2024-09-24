@@ -38,9 +38,9 @@ a{
 }
 .main{
     margin: 0 auto;
-    height: 30vh;
-    width: 90%;
-    color: #14105B;
+    /* height: 30vh; */
+    /* width: 90%; */
+    /* color: #14105B; */
 }
 /* *****END of Global***** */
 
@@ -455,18 +455,33 @@ input[id="search-bar"]{
 /* *****END of Section One***** */
 
 /* *****START of Section Two***** */
-.sectionTwo h1{
-    /* overflow: hidden; */
+.sectionTwo{
+    width: 100%;
+    height: 110vh;
+}
+.sectionTwo .main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .sectionTwo h1{
+    margin: 3rem 0;
+}
+.sectionTwo h1{
+    font-size: 5vmin;
+    font-weight: 700;
     text-align: center;
+    color: #000;
+    text-decoration: underline;
 }
 .row{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
-    gap: 1.5rem 0.8rem;
+    gap: 1.5rem 0rem;
     margin: 1rem 0;   
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden; 
+    white-space: nowrap; 
 }
 .row .box{
     text-align: center;
@@ -480,6 +495,7 @@ input[id="search-bar"]{
     background: linear-gradient(200deg, #faf8ee 0% , #fbf0fb 37%, #fffdf5 75%, transparent 100%);
     height: 40vh;
     margin: 10px auto;
+   
 }
 .row .box:hover{
     box-shadow: 0 4px 12px 0 rgba(0,0,0,0.15);
