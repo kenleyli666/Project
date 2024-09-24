@@ -694,6 +694,9 @@ input[id="search-bar"]{
 header{
     height: 75vh;
 }
+.text-container {
+    height: 65vh;
+}
 #play-button{
     width: 10%;
     height: 3vh;

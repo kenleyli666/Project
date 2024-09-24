@@ -671,6 +671,9 @@ header{
     height: 70vh;
     background-size: 100% 100%;
 }
+.text-container {
+    height: 60vh;
+}
 #play-button{
     width: 10%;
     height: 3vh;
