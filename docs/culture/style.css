@@ -489,6 +489,7 @@ input[id="search-bar"]{
     font-weight: 800;
 }
 .sectionTwo p{
+    padding: 1rem;
     font-size: 3vmin;
 }
 .sectionTwo .content2{
@@ -785,12 +786,14 @@ z-index: 1;
     left: 6%;
 }
 /* *****END of Section one***** */
+/* *****START of Section two***** */
 .sectionTwo{
     padding: 3rem 0;
 }
 .sectionTwo .bnt-container{
     width: 20%;
 }
+/* *****END of Section two***** */
 /* *****START of Footer***** */
 .footer{
     height: 28vh;
