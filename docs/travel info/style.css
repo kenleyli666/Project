@@ -392,7 +392,7 @@ input[id="search-bar"]{
     border: 1px solid darkblue;
     color: darkblue;
     margin: 0% auto;
-    background: url(../img/logo/sea.jpg);
+    background: url(../img/logo/sea.gif);
     background-size: 100% 90%;
     object-fit: cover;
 }
