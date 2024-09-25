@@ -496,14 +496,13 @@ input[id="search-bar"]{
     width: 100%;
     margin: 10px auto;
     overflow: hidden; 
-        &:hover{
-            border: 5px solid var(--hover-color);
-        }
 }
 .sectionTwo .row .box:hover{
     box-shadow: 0 4px 12px 0 rgba(0,0,0,0.25);
     transform: translateY(-10px);
     cursor: pointer;
+    border: 5px solid var(--hover-color);
+    transition: all 0.2s ease-in-out;
 }
 .sectionTwo .row .box i{
     position: absolute;
@@ -517,7 +516,10 @@ input[id="search-bar"]{
     height: 100%;
     object-fit: fill;
     cursor: pointer;
-   
+        &:hover{
+            transform: scale(1.1);
+            transition: all 0.1s ease-in-out;
+        }
 }
 /* *****END of Section Two***** */
 

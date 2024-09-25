@@ -468,18 +468,22 @@ input[id="search-bar"]{
     overflow: hidden;
     margin: 3rem 2rem 0;
     display: inline-block;
+    border: 5px blue solid;
 }
 .sectionTwo .row .box:hover{
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.15);
     transform: translateY(-10px);
+    border: 5px var(--hover-color) solid;
+    transition: all 0.15s ease-in-out;
 }
 .sectionTwo .row .image-box:hover img{
     transform: scale(1.15);
-    overflow: hidden;
+    transition: all 0.1s ease-in-out;
 }
 .sectionTwo .row .image-box{
     width: 100%;
     height: 70%;
+    overflow: hidden;
 }
 .sectionTwo .row img{
     width: 100%;
