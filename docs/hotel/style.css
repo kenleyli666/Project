@@ -418,6 +418,9 @@ input[id="search-bar"]{
     height: 15vh;
     border: 1px solid darkblue;
     color: darkblue;
+    background: url(../img/logo/sea.jpg);
+    background-size: 100% 90%;
+    object-fit: cover;
 }
 .sectionOne .main button {
     position: relative;
