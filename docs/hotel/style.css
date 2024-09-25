@@ -465,53 +465,59 @@ input[id="search-bar"]{
     padding: 0;
 }
 .sectionTwo h1{
-    margin: 3rem 0;
-}
-.sectionTwo h1{
     font-size: 5vmin;
     font-weight: 700;
     text-align: center;
     color: #000;
     text-decoration: underline;
+    margin: 3rem 0;
 }
-.row{
+.sectionTwo .row{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
-    gap: 1.5rem 0rem;
-    margin: 1rem 0;   
+    gap: 1.5rem 1rem;
+    margin: 1rem 1rem;   
     overflow-x: auto;
     overflow-y: hidden; 
     white-space: nowrap; 
 }
-.row .box{
+.sectionTwo .row .box{
+    position: relative;
     text-align: center;
     color: var(--text2-color);
-    border: 1px solid #e6e6e6;
+    border: 5px solid blue;
     transition: all 0.3s ease-in-out;
-    padding: 4rem;
-    border-radius: 0.8rem;
+    /* padding: 1rem; */
+    border-radius: 1rem;
     transition: box-shadow .2s ease,transform .2s ease;
     transform-box: preserve-3d;
     background: linear-gradient(200deg, #faf8ee 0% , #fbf0fb 37%, #fffdf5 75%, transparent 100%);
     height: 40vh;
+    width: 100%;
     margin: 10px auto;
-   
+    overflow: hidden; 
+        &:hover{
+            border: 5px solid var(--hover-color);
+        }
 }
-.row .box:hover{
-    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.15);
+.sectionTwo .row .box:hover{
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.25);
     transform: translateY(-10px);
     cursor: pointer;
-    /* background: var(--box-color); */
 }
-.row .box i{
-    font-size: 5rem;
+.sectionTwo .row .box i{
+    position: absolute;
+    font-size: 6vmin;
+    top: 0;
+    right: 0;
+    color: #0080ff;
 }
-.row .box h3{
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
-}
-.row .box p{
-    font-size: 1rem;
+.sectionTwo .row .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    cursor: pointer;
+   
 }
 /* *****END of Section Two***** */
 
@@ -797,6 +803,18 @@ z-index: 1;
     left: 6%;
 }
 /* *****END of Section one***** */
+.sectionTwo h1{
+    margin: 1.5rem 0;
+}
+.sectionTwo{
+    height: 145vh;
+}
+.sectionTwo .row{
+    grid-template-columns: repeat(auto-fit,minmax(33%,1fr));
+}
+.sectionTwo .row .box{
+    height: 30vh;
+}
 /* *****START of Footer***** */
 .footer{
     height: 28vh;

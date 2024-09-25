@@ -70,11 +70,11 @@
     </div>
     </nav>
     <div class="text-container">
-        <div>四大熱門旅遊國家</div>
-        <div>中國</div>
-        <div>秘魯</div>
-        <div>埃及</div>
-        <div>柬埔寨</div>
+        <div>文化與歷史</div>
+        <div>華夏文化</div>
+        <div>印加文明</div>
+        <div>古埃及文明</div>
+        <div>高綿佛教文化</div>
     </div>
     <audio id="background-audio" src="../audio/galactic-space-journey.mp3" loop></audio>
     <button id="play-button" class="play">播放</button>
@@ -87,11 +87,11 @@
     <section class="sectionOne">
         <img class="banner" src="../img/carousel/banner.jpg" alt="this is banner">
         <div class="main">
-            <button onclick="document.querySelector('.myLink1').click();"><img src="../img/logo/map-marker.svg" alt=""><a class="myLink1" href="#">目的地</a></button>
-            <button onclick="document.querySelector('.myLink2').click();"><img src="../img/logo/self-travel1.png" alt=""><a class="myLink2" href="#">自由行</a></button>
-            <button onclick="document.querySelector('.myLink3').click();"><img src="../img/logo/air-tickets.svg" alt=""><a class="myLink3" href="#footer">機票</a></button>
-            <button onclick="document.querySelector('.myLink4').click();"><img src="../img/logo/hotel.png" alt=""><a class="myLink4" href="#footer">酒店</a></button>
-            <button onclick="document.querySelector('.myLink5').click();"><img src="../img/logo/passport.png" alt=""><a class="myLink5" href="#footer">簽證</a></button>
+            <button onclick="document.querySelector('.myLink1').click();"><img src="../img/logo/map-marker.svg" alt=""><a class="myLink1" href="../index.html#map-end">目的地</a></button>
+            <button onclick="document.querySelector('.myLink2').click();"><img src="../img/logo/self-travel1.png" alt=""><a class="myLink2" href="../world attractions/worldAttractions.html#attractions">自由行</a></button>
+            <button onclick="document.querySelector('.myLink3').click();"><img src="../img/logo/air-tickets.svg" alt=""><a class="myLink3" href="../hotel/hotel.html#flight">機票</a></button>
+            <button onclick="document.querySelector('.myLink4').click();"><img src="../img/logo/hotel.png" alt=""><a class="myLink4" href="../hotel/hotel.html#hotel">酒店</a></button>
+            <button onclick="document.querySelector('.myLink5').click();"><img src="../img/logo/passport.png" alt=""><a class="myLink5" href="../travel info/travelinfo.html#visa-passport">簽證</a></button>
         </div>
     </section>
     <!-- * *****End of Section One***** * -->
@@ -101,7 +101,7 @@
         <h1>各地文化與歷史</h1>
         <div class="main">
              <!-- button part one-->
-             <div class="bnt-container">
+            <div class="bnt-container">
                 <button class="btn-1">中國</button>
                 <button class="btn-2">秘魯</button>
                 <button class="btn-3">埃及</button>
@@ -206,7 +206,11 @@
     <!-- * *****END of Whatsapp & ScrollTop***** * -->
 
 
-
+    <script>
+        document.querySelectorAll('.sectionTwo button p').forEach(function(p) {
+            p.style.animation = 'rotateX 1s linear infinite';
+        });
+    </script>
     <script src="../script.js"></script>
     <script src="./culturescript.js"></script>
     <script src="../all javascript/scroll-to-top.js"></script>
