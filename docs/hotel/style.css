@@ -803,18 +803,23 @@ z-index: 1;
     left: 6%;
 }
 /* *****END of Section one***** */
+
+/* *****STARTof Section two***** */
 .sectionTwo h1{
     margin: 1.5rem 0;
 }
 .sectionTwo{
-    height: 145vh;
+    height: 155vh;
 }
 .sectionTwo .row{
+    gap: 0.5rem 1rem;
     grid-template-columns: repeat(auto-fit,minmax(33%,1fr));
 }
 .sectionTwo .row .box{
     height: 30vh;
 }
+/* *****END of Section two***** */
+
 /* *****START of Footer***** */
 .footer{
     height: 28vh;
